@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.title {
+    text-align: center;
+    color: red;
+}
+
+#unique {
+    color: blueviolet;
+}
+
+.child {
+    text-align: center;
+    color: green !important;
+}
+
+p {
+    color: red;
+}
+
+.photo {
+    width: 300px;
+    margin: auto;
+    display: block;
+    transition: .5s;
+}
+
+.photo:hover {
+    filter: blur(500px);
+    /* yoruglik*/
+    filter: brightness(150%);
+    /*tiniqlik*/
+    filter: contrast(120%);
+    /*oq-qora*/
+    filter: grayscale(100%);
+    /*rang-barang*/
+    filter: hue-rotate(60deg);
+    /*rengen*/
+    filter: invert(100%);
+    /*qizil moyil*/
+    filter: saturate(130%);
+    /*qaymoq rang moyil*/
+    filter: sepia(100%)
+}
+
+.container {
+    width: 80%;
+    height: 500px;
+    border: 1px solid red;
+    margin: auto;
+}
+
+.container p {
+    border: 1px solid #000;
+    display: inline;
+}
+.container span{
+    border: 1px solid gold;
+    display: block;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid blue;
+    display: inline-block;
+}
